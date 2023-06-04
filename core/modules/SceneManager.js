@@ -1,0 +1,9 @@
+
+class Scene 
+{
+    
+}
+class ScenesManager
+{
+
+}

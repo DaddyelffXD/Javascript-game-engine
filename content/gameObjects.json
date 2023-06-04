@@ -1,0 +1,346 @@
+{
+    "IDs":
+    [
+        {
+            "id"                : 0,
+            "createData"        : 
+            {
+                "name"          : "zombie",
+                "hasTexture"    : true,
+                "visible"       : true,
+                "phisical"      : true,
+                "active"        : true,
+                "dynamic"       : true,
+                "animated"      : true,
+                "canDestroy"    : true,
+                "evil"          : true,
+                "texture"       : "./assets/gameEntities/enemies/zombie.png",
+                "life"          : 100,
+                "defense"       : 5,
+                "size"          : [64, 64],
+                "collidable"    : true,
+                "speed"         : 5,
+                "renderIndex"   : 2
+            }
+
+        },
+        {
+            "id"                : 1,
+            "createData"        : 
+            {   
+                "name"          : "apple_tree",
+                "visible"       : true,
+                "hasTexture"    : true,
+                "phisical"      : true,
+                "active"        : true,
+                "dynamic"       : false,
+                "animated"      : false,
+                "canDestroy"    : false,
+                "evil"          : false,
+                "texture"       : "./assets/gameEntities/objects/apple_tree.png",
+                "size"          : [128, 128],
+                "collidable"    : false,          
+                "renderIndex"   : 3      
+            }
+        },
+        {
+            "id"                : 2,
+            "createData"        : 
+            {   
+                "name"          : "house_04c",
+                "visible"       : true,
+                "hasTexture"    : true,
+                "phisical"      : true,
+                "active"        : true,
+                "dynamic"       : false,
+                "animated"      : false,
+                "canDestroy"    : false,
+                "evil"          : false,
+                "texture"       : "./assets/gameEntities/objects/IsometricSuburbanPack/Buildings/house04c.png",
+                "size"          : [256, 256],
+                "collidable"    : false,          
+                "renderIndex"   : 3                    
+            }
+        },
+        {
+            "id"                : 3,
+            "createData"        : 
+            {
+                "name"          : "gas_station_a",
+                "visible"       : true,
+                "hasTexture"    : true,
+                "phisical"      : true,
+                "active"        : true,
+                "dynamic"       : false,
+                "animated"      : false,
+                "canDestroy"    : false,
+                "evil"          : false,
+                "texture"       : "./assets/gameEntities/objects/IsometricSuburbanPack/Buildings/gas station a.png",
+                "size"          : [256, 256],
+                "collidable"    : false,          
+                "renderIndex"   : 3                    
+            }
+        },
+        {
+            "id"                : 4,
+            "createData"        : 
+            {   
+                "name"          : "suv_01a",
+                "visible"       : true,
+                "hasTexture"    : true,
+                "phisical"      : true,
+                "active"        : true,
+                "dynamic"       : false,
+                "animated"      : false,
+                "canDestroy"    : false,
+                "evil"          : false,
+                "texture"       : "./assets/gameEntities/objects/IsometricSuburbanPack/Vehicles/suv 01a.png",
+                "size"          : [128, 128],
+                "collidable"    : false,          
+                "renderIndex"   : 2                    
+            }
+        },
+        {
+            "id"            : 5,
+            "createData"    : 
+            {
+                "name"      : "main_road",
+                "visible"   : true,
+                "hasTexture": true,
+                "phisical"  : true,
+                "active"    : true,
+                "dynamic"   : false,
+                "animated"  : false,
+                "canDestroy": false,
+                "evil"      : false,
+                "texture"   : "./assets/gameEntities/objects/IsometricSuburbanPack/Roads/road 02 a.png",
+                "size"      : [128, 128],
+                "collidable": false,          
+                "renderIndex"   : 1                    
+            }
+        },
+        {
+            "id"            : 6,
+            "createData"    : 
+            {
+                "name"      : "main_char",
+                "visible"   : true,
+                "hasTexture": true,
+                "phisical"  : true,
+                "active"    : true,
+                "dynamic"   : false,
+                "animated"  : false,
+                "canDestroy": false,
+                "evil"      : false,
+                "texture"   : "./assets/gameEntities/objects/IsometricSuburbanPack/Characters/Character01/chr01_wa01.png",
+                "size"      : [64, 64],
+                "collidable": false,          
+                "renderIndex"   : 2                 
+            }
+        },
+        {
+            "id"            : 7,
+            "createData"    : 
+            {
+                "name"      : "tree01",
+                "visible"   : true,
+                "hasTexture": true,
+                "phisical"  : true,
+                "active"    : true,
+                "dynamic"   : false,
+                "animated"  : false,
+                "canDestroy": false,
+                "evil"      : false,
+                "texture"   : "./assets/gameEntities/objects/IsometricSuburbanPack/Vegetation/tree 01.png",
+                "size"      : [256, 256],
+                "collidable": false,          
+                "renderIndex"   : 3                
+            }
+        },
+        {
+            "id"            : 8,
+            "createData"    : 
+            {
+                "name"      : "brush",
+                "visible"   : true,
+                "hasTexture": true,
+                "phisical"  : true,
+                "active"    : true,
+                "dynamic"   : false,
+                "animated"  : false,
+                "canDestroy": false,
+                "evil"      : false,
+                "texture"   : "./assets/gameEntities/objects/IsometricSuburbanPack/Vegetation/brushes 01a.png",
+                "size"      : [128, 128],
+                "collidable": false,          
+                "renderIndex"   : 2                 
+            }
+        },
+        {
+            "id"            : 9,
+            "createData"    : 
+            {
+                "name"      : "suv_01b",
+                "visible"   : true,
+                "hasTexture": true,
+                "phisical"  : true,
+                "active"    : true,
+                "dynamic"   : false,
+                "animated"  : false,
+                "canDestroy": false,
+                "evil"      : false,
+                "texture"   : "./assets/gameEntities/objects/IsometricSuburbanPack/Vehicles/suv 01b.png",
+                "size"      : [128, 128],
+                "collidable": false,          
+                "renderIndex"   : 2    
+                                
+            }
+        },
+        {
+            "id"            : 10,
+            "createData"    : 
+            {
+                "name"      : "grassy_ground",
+                "visible"   : true,
+                "hasTexture": true,
+                "phisical"  : true,
+                "active"    : true,
+                "dynamic"   : false,
+                "animated"  : false,
+                "canDestroy": false,
+                "evil"      : false,
+                "texture"   : "./assets/gameEntities/objects/IsometricSuburbanPack/Grounds/grassy ground.png",
+                "size"      : [128, 128],
+                "collidable": false,          
+                "renderIndex"   : 2    
+                                
+            }
+        },
+        {
+            "id"            : 11,
+            "createData"    : 
+            {
+                "name"      : "ground",
+                "visible"   : true,
+                "hasTexture": true,
+                "phisical"  : true,
+                "active"    : true,
+                "dynamic"   : false,
+                "animated"  : false,
+                "canDestroy": false,
+                "evil"      : false,
+                "texture"   : "./assets/gameEntities/objects/IsometricSuburbanPack/Tilesets/ground 1.png",
+                "size"      : [64, 64],
+                "collidable": false,          
+                "renderIndex"   : 0    
+                                
+            }
+        }
+        
+        
+
+    ],
+
+
+
+    "RequiredParameters":
+    [
+        {
+            "name"      : "visible",
+            "arguments" : 
+            [
+                {
+                    "name"      : "size",
+                    "default"   : [32, 32]
+                },
+                {
+                    "name"      : "color",
+                    "default"   : "white"
+                },
+                {
+                    "name"      : "ScreenPosition",
+                    "default"   : [0, 0]
+                },
+                {
+                    "name"      : "renderIndex",
+                    "default"   : 0
+                }
+            ] 
+        },
+        {
+            "name"      : "hasTexture",
+            "arguments" : 
+            [
+                {
+                    "name"      : "texture",
+                    "default"   : "./assets/gameEntities/objects/apple_tree.png"
+                }
+               
+            ] 
+        },
+        {
+            "name"      : "phisical",
+            "arguments" : 
+            [
+                {
+                    "name"      : "weight",
+                    "default"   : 0
+                },
+                {
+                    "name"      : "canCollide",
+                    "default"   : false
+                },
+                {
+                    "name"      : "position",
+                    "default"   : [0, 0]
+                }
+               
+            ] 
+        },
+        {
+            "name"      : "dynamic",
+            "arguments" : 
+            [
+                {
+                    "name"      : "animated",
+                    "default"   : true
+                },
+                {
+                    "name"      : "speed",
+                    "default"   : 5
+                }
+               
+            ] 
+        },
+        {
+            "name"      : "canDestroy",
+            "arguments" : 
+            [
+                {
+                    "name"      : "defense",
+                    "default"   : 10
+                },
+                {
+                    "name"      : "life",
+                    "default"   : 100
+                }
+               
+            ] 
+        },
+        {
+            "name"      : "evil",
+            "arguments" : 
+            [
+                {
+                    "name"      : "damage",
+                    "default"   : 5
+                },
+                {
+                    "name"      : "peaceful",
+                    "default"   : true
+                }
+               
+            ] 
+        }
+    ]
+}

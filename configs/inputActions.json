@@ -1,0 +1,30 @@
+{
+    "inputActions":
+    [
+
+        {
+            "name": "UP",
+            "keys": ["KeyW", "ArrowUp"]
+        },
+        {
+            "name": "DOWN",
+            "keys": ["KeyS", "ArrowDown"]
+        },
+        {
+            "name": "LEFT",
+            "keys": ["KeyA", "ArrowLeft"]
+        },
+        {
+            "name": "RIGHT",
+            "keys": ["KeyD", "ArrowRight"]
+        },
+        {
+            "name": "PAUSE",
+            "keys": ["Space"]
+        },
+        {
+            "name": "PRINT",
+            "keys": ["KeyP"]
+        }
+    ]
+}

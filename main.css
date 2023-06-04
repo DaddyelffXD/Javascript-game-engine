@@ -1,0 +1,22 @@
+*
+{
+    box-sizing:     border-box;
+    margin:         0;
+    padding:        0;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+a
+{
+
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    font-size: 5vw;
+    left: 100%;
+    text-align: end;
+    text-anchor: middle;
+    transform: translateX(-100%);
+
+}

@@ -1,0 +1,14 @@
+{
+
+"scripts": 
+[
+    {
+        "name": "main",
+        "path": ""
+    },
+    {
+        "name": "movement",
+        "path": ""
+    }
+]
+}

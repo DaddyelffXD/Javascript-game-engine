@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scene Creator</title>
+</head>
+<body>
+    <div class="blur"></div>
+    <section class="tools-section">
+        <a href="../../index.html">Exit</a>
+        <div class="tools-container">
+            <ul class="tools">
+                
+                <li onclick="changeSelection('selected', this, 'tool')" id="pen"><img src="assets/edit.png"/> </li>
+                <li onclick="changeSelection('selected', this, 'tool')" id="move"><img src="https://img.icons8.com/ios-filled/100/null/move.png"/> </li>
+                <li onclick="changeSelection('selected', this, 'tool')" id="eraser"> <img src="assets/erase.png"/> </li>
+                <li onclick="changeSelection('selected', this, 'tool')" id="create"> <img src="assets/create.png"/> </li>
+
+
+                <li  onclick="layerUp()" id="layerup"> <img src="https://img.icons8.com/metro/52/000000/layers.png"/> </li>
+                <li  onclick="layerDown()" id="layerdown"> <img src="https://img.icons8.com/metro/52/000000/layers.png"/> </li>
+                <li onclick="undo()" class="undo-img"> <img src="assets/undo.png"> </li>
+                <li onclick="redo()"class="redo-img"> <img src="assets/undo.png"> </li>
+            </ul>    
+        </div>
+        <a>Scene Creator</a>
+    </section>
+
+    <section class="main-section">
+        <div class="options-section">
+            <div id="options-section-wrapper">
+                <button onclick="changeOption('showGrid')"><img src="assets/grid.png"/></button>                
+                <button onclick="changeOption('lockGrid')"><img src="assets/grid-lock.png"/></button>                
+                <button onclick="changeOption('showScreenBlueprint')"><img src="assets/screen-blueprint.png"/></button>                              
+                <button onclick="changeOption('showCoordinates')"><img src="assets/coords.png"/></button>                              
+
+            </div>
+        </div>
+        <div class="scene-canvas">
+            <span id="mousePos">X: 0; Y: 0</span>
+            <canvas></canvas>
+        </div>
+
+        <div class="elements-scenes">
+            <ul class="scenes-list-wrapper">
+                <li class="scenes-list" >
+                    <ul id="scenes-list">
+                        
+                    </ul>
+                </li>
+                <li class="add-scene-section">
+                    <button onclick="changePopup(document.querySelector('#add-scene-popup'))">+</button>
+                    <div class="add-scene-container popup-container" id="add-scene-popup">
+                        <span class="close-window-button close-add-list" onclick="changePopup(document.querySelector('#add-scene-popup'))">x</span>
+                        Scene Name:
+                        <label>
+                            <input placeholder="Scene_1" id="create-scene-input"/> 
+                            <button onclick="createScene(this)">Create</button>
+                        </label>
+                        <span class="create-scene-error" id="create-scene-error">
+                            scene name is invalid, it shoud be name between a-z and 0-9, its size should be between 2 and 12
+                        </span>
+                    </div>
+                </li>
+            </ul>
+            <ul class="elements-list">
+                
+            </ul>
+            <div id="scene-raw">
+                
+                <span >scene raw data</span>
+                <div id="scene-data-container">
+                    <div id="scene-content"></div>
+                    <button onclick="copyRawToClipboard()"> <img src="assets/copy.png"/> </button>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+</body>
+</html>
